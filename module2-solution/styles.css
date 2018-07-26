@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Times new roman;
+	
+	
+
+}
+
+h1{
+	text-align: center;
+	font-size: 175%
+}
+
+h3{
+	text-align: center;
+	border: 1px solid black;
+	border-right: 0px;
+	border-top: 0px: 
+	height:30px;
+	width:75px;
+	margin:0;
+
+    float: right;
+    font-size: 125%
+
+	
+	
+}
+section{
+	border: 1px solid black;
+	height: 350px;
+	background-color: #D3D3D3;
+	margin: 10px;
+   
+	overflow: auto;
+
+	
+
+	}
+	
+
+.chicken>h3{
+
+	background-color: #F08080;
+}
+
+.beef>h3{
+
+	background-color: #B22222;
+	color: white;
+}
+
+.sushi>h3{
+
+	background-color: #F0E68C;
+}
+
+.chicken>p, .beef>p, .sushi>p{
+		position: relative;
+		top: 50px;
+	}
+
+
+
+
+
+
+/* Desktop Devies */
+@media (min-width: 992px){
+	.chicken-lg, .beef-lg, .sushi-lg{
+		float: left;
+		width:31.2%;
+
+	}
+
+	
+}
+
+/* Tablet Devices */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+     .chicken-md, .beef-md, .sushi-md{
+		float: left;
+		
+	  }
+	    .chicken-md, .beef-md{
+		width: 47%;
+		
+	  }
+	  .sushi-md{
+	  	width: 97%;
+	  }
+  
+}
+
+
+
+}
+/*Smaller devices */
+
+@media (max-width: 767px){
+	.chicken-lg, .beef-lg, .sushi-lg{
+		float: left;
+		width:100%;
+
+	}
+
+	
+}
+
+
+	
